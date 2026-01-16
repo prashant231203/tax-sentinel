@@ -27,7 +27,8 @@ client = instructor.from_openai(base_client, mode=instructor.Mode.JSON)
 async def run_audit(invoice: InvoiceInput) -> TaxAuditResult:
     # 1. RETRIEVE
     search_query = f"GST rules and tax rates for HSN code {invoice.hsn_code}"
-    relevant_chunks = query_knowledge_base(search_query)
+    # Pass HSN code for explicit filtering
+    relevant_chunks = query_knowledge_base(search_query, filter_hsn=invoice.hsn_code)
     context_text = "\n---\n".join(relevant_chunks)
     
     # 2. VALIDATE
@@ -42,7 +43,7 @@ async def run_audit(invoice: InvoiceInput) -> TaxAuditResult:
         model="meta-llama/llama-3.3-70b-instruct", 
         response_model=TaxAuditResult,
         messages=[
-            {"role": "system", "content": "You are a professional GST Auditor."},
+            {"role": "system", "content": "You are a professional GST Auditor. If the provided legal context does not explicitly mention the specific HSN code from the invoice, report 'NO RELEVANT LAW FOUND' in the legal reference field instead of guessing a Section number or hallucinating a match."},
             {"role": "user", "content": f"Audit this: {invoice.model_dump_json()}\nContext: {context_text}"}
         ]
     )

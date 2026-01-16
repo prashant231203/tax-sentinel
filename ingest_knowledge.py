@@ -32,7 +32,7 @@ def ingest_pdfs():
             continue
 
         # 3. Chunk (Smart Chunking with Overlap)
-        chunks = chunk_text(raw_text, chunk_size=1000, overlap=200)
+        chunks = chunk_text(raw_text, chunk_size=500, overlap=100)
         
         if not chunks:
              print(f"[-] No text chunks generated for {filename}.")
