@@ -1,4 +1,10 @@
 import asyncio
+from dotenv import load_dotenv
+import os
+
+# Load environment variables before importing modules that might use them
+load_dotenv()
+
 from app.agents.auditor import run_audit
 from app.core.schemas import InvoiceInput
 

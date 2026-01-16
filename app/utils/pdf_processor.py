@@ -1,12 +1,22 @@
 from pypdf import PdfReader
 
-def extreact_text_from_pdf(pdf_path: str) -> str:
+def extract_text_from_pdf(pdf_path: str) -> str:
     """Extract all text from the pdf."""
-    reader = PdfReader(pdf_path)
-    text=""
-    for page in reader.pages:
-        text += page.extract_text()
-    return text
+    try:
+        reader = PdfReader(pdf_path)
+        text=""
+        for i, page in enumerate(reader.pages):
+            try:
+                content = page.extract_text()
+                if content:
+                    text += content
+            except Exception as e:
+                print(f"Warning: Failed to extract text from page {i+1} in {pdf_path}: {e}")
+                continue
+        return text
+    except Exception as e:
+        print(f"Error reading PDF {pdf_path}: {e}")
+        return ""
 def chunk_text(text: str, chunk_size: int = 1000)-> list[str]:
     """Breaks the long text into smaller pieces chunks fr the aI"""
 
