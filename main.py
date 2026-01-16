@@ -6,32 +6,58 @@ import os
 load_dotenv()
 
 from app.agents.auditor import run_audit
+from app.agents.extractor import extract_from_invoice
 from app.core.schemas import InvoiceInput
+import sys
 
-async def test_system():
-    # INTENTIONAL ERROR: 18% of 1000 is 180, but we charge 250.
-    test_invoice = InvoiceInput(
-        invoice_number="SENTINEL-001",
-        vendor_name="Varanasi Tech Solutions",
-        hsn_code="998311",
-        taxable_value=1000.0,
-        gst_rate=0.18,
-        total_gst_charged=250.0
-    )
+async def main():
+    invoice_data = None
+    
+    # 1. VISUAL EXTRACTION (If file provided)
+    if len(sys.argv) > 1:
+        file_path = sys.argv[1]
+        print(f"[*] Extracting data from {file_path} using Vision Agent...")
+        try:
+            invoice_data = extract_from_invoice(file_path)
+            print(f"[+] Extracted Invoice: {invoice_data.invoice_number} from {invoice_data.vendor_name}")
+        except Exception as e:
+            print(f"[-] Extraction failed: {e}")
+            return
+    else:
+        # Fallback to Mock Data
+        print("[*] No file provided. Using Mock Invoice for simulation.")
+        invoice_data = InvoiceInput(
+            invoice_number="SENTINEL-MOCK-001",
+            vendor_name="Varanasi Tech Solutions",
+            hsn_code="998311",
+            taxable_value=1000.0,
+            gst_rate=0.18,
+            total_gst_charged=250.0 # Intentional Error (Should be 180)
+        )
 
-    print("[*] Dispatching TaxSentinel Auditor...")
+    # 2. AUDIT PROCESS (With RAG + Validator)
+    print(f"[*] Starting Audit for HSN {invoice_data.hsn_code}...")
     try:
-        report = await run_audit(test_invoice)
+        result = await run_audit(invoice_data)
         
-        print("\n--- SENTINEL AUDIT REPORT ---")
-        print(f"Compliant: {'✅ YES' if report.is_compliant else '❌ NO'}")
-        print(f"Violations: {report.identified_errors}")
-        print(f"Calculated GST: ₹{report.calculated_gst_amount}")
-        print(f"Legal Reference: {report.legal_reference}")
-        print(f"Confidence: {int(report.confidence_score * 100)}%")
+        # 3. REPORTING
+        print("\n=== TAX SENTINEL AUDIT REPORT ===")
+        print(f"Status:      {'✅ COMPLIANT' if result.is_compliant else '❌ NON-COMPLIANT'}")
+        print(f"Confidence:  {result.confidence_score * 100:.1f}%")
         
+        if not result.is_compliant:
+            print("\n[!] VIOLATIONS FOUND:")
+            for error in result.identified_errors:
+                print(f" - {error}")
+            
+            print(f"\n[i] TECHNICAL DETAILS:")
+            print(f"   Calculated GST: {result.calculated_gst_amount}")
+            print(f"   Charged GST:    {invoice_data.total_gst_charged}")
+            print(f"   Discrepancy:    {invoice_data.total_gst_charged - result.calculated_gst_amount}")
+            
+        print(f"\n[§] LEGAL REFERENCE:\n{result.legal_reference}")
     except Exception as e:
-        print(f"ERROR: Something went wrong during the audit: {e}")
+        print(f"[-] Audit failed: {e}")
 
 if __name__ == "__main__":
-    asyncio.run(test_system())
+    asyncio.run(main())

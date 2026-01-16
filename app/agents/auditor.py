@@ -4,6 +4,7 @@ from openai import AsyncOpenAI # Use the OpenAI client for OpenRouter
 from dotenv import load_dotenv
 from app.core.schemas import TaxAuditResult, InvoiceInput
 from app.services.vector_service import query_knowledge_base
+from app.agents.validator import validate_retrieval
 from langsmith import traceable
 
 load_dotenv()
@@ -20,7 +21,7 @@ base_client = AsyncOpenAI(
 )
 
 # Patch the client with Instructor
-client = instructor.from_openai(base_client)
+client = instructor.from_openai(base_client, mode=instructor.Mode.JSON)
 
 @traceable(name="TaxSentinel_OpenRouter_Audit")
 async def run_audit(invoice: InvoiceInput) -> TaxAuditResult:
@@ -29,7 +30,13 @@ async def run_audit(invoice: InvoiceInput) -> TaxAuditResult:
     relevant_chunks = query_knowledge_base(search_query)
     context_text = "\n---\n".join(relevant_chunks)
     
-    # 2. AUDIT (Using a high-limit model on OpenRouter)
+    # 2. VALIDATE
+    validation = await validate_retrieval(search_query, context_text)
+    if not validation.is_relevant:
+        print(f"⚠️ Retrieval Warning: {validation.reason}")
+        # Optionally, we could fallback to general knowledge or trigger a broader search here
+    
+    # 3. AUDIT (Using a high-limit model on OpenRouter)
     # You can use 'anthropic/claude-3.5-sonnet' or 'meta-llama/llama-3.1-405b'
     return await client.chat.completions.create(
         model="meta-llama/llama-3.3-70b-instruct", 
