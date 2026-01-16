@@ -36,3 +36,13 @@ knowledge_base/
 .idea/
 .DS_Store
 Thumbs.db
+# --- Local Data & generated files ---
+chromadb_store/
+*.jpg
+*.png
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

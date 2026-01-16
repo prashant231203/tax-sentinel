@@ -9,6 +9,7 @@ from app.agents.auditor import run_audit
 from app.agents.extractor import extract_from_invoice
 from app.core.schemas import InvoiceInput
 import sys
+import time
 
 async def main():
     invoice_data = None
@@ -20,6 +21,12 @@ async def main():
         try:
             invoice_data = extract_from_invoice(file_path)
             print(f"[+] Extracted Invoice: {invoice_data.invoice_number} from {invoice_data.vendor_name}")
+            
+            # RATE LIMIT BUFFER: Gemini 2.0 Flash Free Tier has very low RPM (sometimes 0/15).
+            # We must wait to avoid '429 RESOURCE_EXHAUSTED' burst errors.
+            print("[*] Cooling down for 30 seconds to respect Rate Limits...")
+            await asyncio.sleep(30) 
+
         except Exception as e:
             print(f"[-] Extraction failed: {e}")
             return

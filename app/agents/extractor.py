@@ -4,15 +4,17 @@ import instructor
 from openai import OpenAI
 from dotenv import load_dotenv
 from app.core.schemas import InvoiceInput
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
+import openai
 
 load_dotenv()
 
 # CRITICAL: Fail fast if API key is missing
 api_key = os.getenv("OPENROUTER_API_KEY")
 if not api_key:
-    raise ValueError("CRITICAL: OPENROUTER_API_KEY is not set in the environment.")
+    raise ValueError("CRITICAL: OPENROUTER_API_KEY is not set.")
 
-# Initialize OpenRouter Client (Synchronous for Extractor)
+# Initialize OpenRouter Client
 client = instructor.from_openai(
     OpenAI(
         base_url="https://openrouter.ai/api/v1",
@@ -25,6 +27,11 @@ client = instructor.from_openai(
     mode=instructor.Mode.JSON
 )
 
+@retry(
+    stop=stop_after_attempt(10),
+    wait=wait_exponential(multiplier=2, min=15, max=120),
+    retry=retry_if_exception_type(openai.RateLimitError)
+)
 def extract_from_invoice(file_path: str) -> InvoiceInput:
     """Extracts structured data from Image or PDF using OpenRouter (Gemini/Claude)."""
     
@@ -42,12 +49,9 @@ def extract_from_invoice(file_path: str) -> InvoiceInput:
 
     data_url = f"data:{mime_type};base64,{encoded_string}"
 
-    # Call OpenRouter
-    # We use google/gemini-2.0-flash-001 as requested, fallback to Claude if needed
-    model = "google/gemini-2.0-flash-001" 
-    
+    # Call OpenRouter (Gemini 2.0 Flash Experimental Free)
     return client.chat.completions.create(
-        model=model,
+        model="google/gemini-2.0-flash-exp:free",
         response_model=InvoiceInput,
         messages=[
             {

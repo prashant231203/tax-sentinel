@@ -1,0 +1,1786 @@
+{
+    "998311": {
+        "rate": "18%",
+        "description": "Information technology consulting and support services; Software development services"
+    },
+    "998312": {
+        "rate": "18%",
+        "description": "Computer systems analysis and design services"
+    },
+    "998313": {
+        "rate": "18%",
+        "description": "Information technology design and development services"
+    },
+    "998314": {
+        "rate": "18%",
+        "description": "Hosting and infrastructure provisioning services"
+    },
+    "998315": {
+        "rate": "18%",
+        "description": "Infrastructure and network management services"
+    },
+    "998316": {
+        "rate": "18%",
+        "description": "Network and security management services"
+    },
+    "998319": {
+        "rate": "18%",
+        "description": "Other information technology services nowhere else classified"
+    },
+    "9982": {
+        "rate": "18%",
+        "description": "Legal services"
+    },
+    "9987": {
+        "rate": "18%",
+        "description": "Maintenance, repair and installation (except construction) services"
+    },
+    "0401": {
+        "rate": "Nil",
+        "description": "Ultra-High Temperature (UHT) milk",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "0406": {
+        "rate": "5%",
+        "description": "Cheese",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2106": {
+        "rate": "18%",
+        "description": "Food preparations not elsewhere speci\ufb01ed or inc",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "210690": {
+        "rate": "5%",
+        "description": "Namkeens, bhujia, mixture, chabena and preparations ready for consumption form (oth gram), pre-packaged and labelled",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "ANY": {
+        "rate": "5%",
+        "description": "beauty and physical well-being services used by common man including services of gyms, salons, barbers, yoga centres, etc",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2523": {
+        "rate": "18%",
+        "description": "Cement",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "30": {
+        "rate": "5%",
+        "description": "Inclisiran",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2807": {
+        "rate": "18% to 5%",
+        "description": "Sulphuric acid",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2808": {
+        "rate": "18% to 5%",
+        "description": "Nitric acid",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2814": {
+        "rate": "12% to 5%",
+        "description": "Ammonia",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1704": {
+        "rate": "12%",
+        "description": "Sugar confectionery [other than mishri, batasha khadi sakar, harda, sakariya, gatta, kuliya, lukumdana, chikkis like puffed rice chikki, p sesame chikki, til chikki, til patti, til revdi, su groundnut sweets, gajak and sugar boiled con",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "61": {
+        "rate": "18%",
+        "description": "Articles of apparel and clothing accessories, knitted or crocheted, of sale value exceeding Rs. 2500 per piece",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "62": {
+        "rate": "18%",
+        "description": "Articles of apparel and clothing accessories, not knitted or crocheted, of sale value exceeding Rs. 2500 per piece",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "63": {
+        "rate": "18%",
+        "description": "Other made up textile articles, sets of sale value exceeding Rs. 2500 per piece [other than Worn clothing and other worn articles; rags]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9404": {
+        "rate": "18%",
+        "description": "Products wholly made of quilted textile material exceeding Rs. 2500 per piece",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5402": {
+        "rate": "18%",
+        "description": "All goods",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5404": {
+        "rate": "18%",
+        "description": "All goods",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5406": {
+        "rate": "18%",
+        "description": "All goods",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5403": {
+        "rate": "18%",
+        "description": "All goods",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5405": {
+        "rate": "18%",
+        "description": "All goods",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5501": {
+        "rate": "18%",
+        "description": "Synthetic or arti\ufb01cial \ufb01lament tow",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5502": {
+        "rate": "18%",
+        "description": "Synthetic or arti\ufb01cial \ufb01lament tow",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5503": {
+        "rate": "18%",
+        "description": "Synthetic or arti\ufb01cial staple \ufb01bres",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5504": {
+        "rate": "18%",
+        "description": "Synthetic or arti\ufb01cial staple \ufb01bres",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5506": {
+        "rate": "18%",
+        "description": "Synthetic or arti\ufb01cial staple \ufb01bres",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5507": {
+        "rate": "18%",
+        "description": "Synthetic or arti\ufb01cial staple \ufb01bres",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5505": {
+        "rate": "18%",
+        "description": "Waste of manmade \ufb01bres",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "28": {
+        "rate": "12% to 5%",
+        "description": "Micronutrients, which are covered under serial number 1(g) of Schedule 1, Part (A) of the Fertilizer Control Order, 1985 and are manufactured by the manufacturers which are registered under the Fertilizer Control Order, 1985",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "280120": {
+        "rate": "5%",
+        "description": "Iodine",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "28044010": {
+        "rate": "5%",
+        "description": "Medical grade oxygen",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2847": {
+        "rate": "5%",
+        "description": "Medicinal grade hydrogen peroxide",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "3001": {
+        "rate": "5%",
+        "description": "Glands and other organs for organo-therapeutic uses, dried, whether or not powdered; extracts of glands or other organs or of their secretions for organo- therapeutic uses; heparin and its salts; other human or animal substances prepared for therapeutic or prophylactic uses, not elsewhere speci\ufb01ed or included",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "3002": {
+        "rate": "5%",
+        "description": "Animal blood prepared for therapeutic, prophylactic or diagnostic uses; antisera and other blood fractions and modi\ufb01ed immunological products, whether or not obtained by means of biotechnological processes; toxins, cultures of micro-organisms (excluding yeasts) and similar products",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "3003": {
+        "rate": "5%",
+        "description": "all other drugs and medicines",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "3004": {
+        "rate": "5%",
+        "description": "Medicaments (excluding goods of heading 30.02, 30.05 or 30.06) consisting of mixed or unmixed products for therapeutic or prophylactic uses, put up in measured doses (including those in the form of transdermal administration systems) or in forms or packings for retail sale, including Ayurvaedic, Unani, homoeopathic siddha or Bio-chemic systems medicaments, put up for retail sale",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "3005": {
+        "rate": "5%",
+        "description": "Wadding, gauze, bandages and similar articles (for example, dressings, adhesive plasters, poultices), impregnated or coated with pharmaceutical substances or put up in forms or packings for retail sale for medical, surgical, dental or veterinary purposes",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "3006": {
+        "rate": "5%",
+        "description": "Pharmaceutical goods speci\ufb01ed in Note 4 to this Chapter [i.e. Sterile surgical catgut, similar sterile suture materials (including sterile absorbable surgical or dental yarns) and sterile tissue adhesives for surgical wound closure; sterile laminaria and sterile laminaria tents; sterile absorbable surgical or dental haemostatics; sterile surgical or denatal adhesion barriers, whether or not absorbable; Waste pharmaceuticals] [other than contraceptives and Ostomy appliances]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "3822": {
+        "rate": "5%",
+        "description": "All diagnostic kits and reagents",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4015": {
+        "rate": "5%",
+        "description": "Surgical rubber gloves or medical examination rubber gloves",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "90": {
+        "rate": "Nil",
+        "description": "Parts and sub-assemblies of IADWS",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9004": {
+        "rate": "5%",
+        "description": "Spectacles and goggles for correcting vision",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9018": {
+        "rate": "5%",
+        "description": "various medical equipment and supplies devices such as wadding gauze, bandages, diagnostic kits and reagents, blood glucose monitoring system (Glucometer) medical devices, etc",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9019": {
+        "rate": "Nil",
+        "description": "Air diving, rebreather sets, diving systems, components and accessories",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9020": {
+        "rate": "Nil",
+        "description": "Air diving, rebreather sets, diving systems, components and accessories",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9022": {
+        "rate": "5%",
+        "description": "Apparatus based on the use of X-rays or of alpha, beta or gamma radiations, for medical, surgical, dental or veterinary uses, including radiography or radiotherapy apparatus, X-ray tubes and other X-ray generators, high tension generators, control panels and desks, screens, examinations or treatment tables, chairs and the light",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9804": {
+        "rate": "28% to 18%",
+        "description": "All dutiable articles intended for personal use",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9025": {
+        "rate": "5%",
+        "description": "Thermometers for medical, surgical, dental or veterinary usage",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9027": {
+        "rate": "5%",
+        "description": "Instruments and apparatus for medical, surgical, dental or veterinary uses for physical or chemical analysis",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4016": {
+        "rate": "12% to Nil",
+        "description": "Erasers",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4905": {
+        "rate": "Nil",
+        "description": "Maps and hydrographic or similar charts of all kinds, including atlases, wall maps, topographical plans and globes, printed",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8214": {
+        "rate": "Nil",
+        "description": "Pencil sharpeners",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9608": {
+        "rate": "18%",
+        "description": "Pencils (including propelling or sliding pencils), crayons, pastels, drawing charcoals, writing or drawing chalk and tailors\u2019 chalk; chalk sticks",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9609": {
+        "rate": "18%",
+        "description": "Pencils (including propelling or sliding pencils), crayons, pastels, drawing charcoals, writing or drawing chalk and tailors\u2019 chalk; chalk sticks",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4820": {
+        "rate": "12% to 5%",
+        "description": "Exercise book, graph book, & laboratory note book and notebooks",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "7310": {
+        "rate": "5%",
+        "description": "Mathematical boxes, geometry boxes and colour boxes",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "7326": {
+        "rate": "5%",
+        "description": "Mathematical boxes, geometry boxes and colour boxes",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "33061010": {
+        "rate": "5%",
+        "description": "Tooth powder",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "3406": {
+        "rate": "5%",
+        "description": "Candles, tapers and the like",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "36050010": {
+        "rate": "5%",
+        "description": "All goods-safety matches",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "3926": {
+        "rate": "5%",
+        "description": "Feeding bottles",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4014": {
+        "rate": "5%",
+        "description": "Nipples of feeding bottles",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "42022220": {
+        "rate": "154",
+        "description": "Hand bags and shopping bags, of cotton",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "42022230": {
+        "rate": "155",
+        "description": "Hand bags and shopping bags, of jute",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4419": {
+        "rate": "170",
+        "description": "Tableware and Kitchenware of wood",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "6601": {
+        "rate": "5%",
+        "description": "Umbrellas and sun umbrellas (including walking- stick umbrellas, garden umbrellas and similar umbrellas)",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "6603": {
+        "rate": "5%",
+        "description": "Parts, trimmings and accessories of articles of heading 6601 or 6602",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "6911": {
+        "rate": "5%",
+        "description": "Tableware, kitchenware, other household articles and toilet articles, of porcelain or china",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "6912": {
+        "rate": "5%",
+        "description": "Tableware, kitchenware, other household articles and toilet articles, other than of porcelain or china",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "7319": {
+        "rate": "5%",
+        "description": "Sewing needles",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "7321": {
+        "rate": "5%",
+        "description": "Solar cookers",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "7323": {
+        "rate": "5%",
+        "description": "Table, kitchen or other household articles of iron & steel; Utensils",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "7418": {
+        "rate": "5%",
+        "description": "Table, kitchen or other household articles of copper; Utensils",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "74198030": {
+        "rate": "5%",
+        "description": "Brass Kerosene Pressure Stove",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "7615": {
+        "rate": "5%",
+        "description": "Table, kitchen or other household articles of aluminium; Utensils",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8452": {
+        "rate": "5%",
+        "description": "Sewing machines, other than book-sewing machine of heading 8440; furniture, bases and covers specially designed for sewing machines; sewing machines needles and parts of sewing machines",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8712": {
+        "rate": "5%",
+        "description": "Bicycles and other cycles (including delivery tricycles), not motorised",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8714": {
+        "rate": "28% to 18%",
+        "description": "Parts and accessories of vehicles of heading 8711",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9403": {
+        "rate": "18%",
+        "description": "Furniture wholly made of bamboo, cane or rattan",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9405": {
+        "rate": "12%",
+        "description": "Hurricane lanterns, Kerosene lamp / pressure lantern, petromax, glass chimney, and parts thereof",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9615": {
+        "rate": "18%",
+        "description": "Combs, hair-slides and the like; hairpins, curling pins, curling grips, hair-curlers and the like, other than those of heading 8516, and parts thereof",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "96190030": {
+        "rate": "18% to 5%",
+        "description": "All goods- napkins and napkin liners for babies, clinical diapers",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "96190040": {
+        "rate": "18% to 5%",
+        "description": "All goods- napkins and napkin liners for babies, clinical diapers",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "96190090": {
+        "rate": "18% to 5%",
+        "description": "All goods- napkins and napkin liners for babies, clinical diapers",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "3304": {
+        "rate": "5%",
+        "description": "Talcum powder, Face powder",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "3305": {
+        "rate": "5%",
+        "description": "Preparations for use on the hair (Shampoos, Oils). Reduced from 18% to 5%.",
+        "legal_ref": "Notification No. 1/2017-Central Tax (Rate)",
+        "type": "GOODS"
+    },
+    "3306": {
+        "rate": "5%",
+        "description": "Dental \ufb02oss, toothpaste",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "3307": {
+        "rate": "5%",
+        "description": "Shaving cream, shaving lotion, aftershave lotion",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "3401": {
+        "rate": "5%",
+        "description": "Toilet Soap (other than industrial soap) in the form of bars, cakes, moulded pieces or shapes",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "96032100": {
+        "rate": "18%",
+        "description": "Tooth brushes including dental-plate brushes",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8415": {
+        "rate": "18%",
+        "description": "Air conditioning machines. Reduced from 28% to 18% (Effective 2026).",
+        "legal_ref": "Notification No. 1/2017-Central Tax (Rate)",
+        "type": "GOODS"
+    },
+    "8422": {
+        "rate": "28% to 18%",
+        "description": "Dish washing machines, household [8422 11 00] and other [8422 19 00]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8528": {
+        "rate": "28% to 18%",
+        "description": "Television sets (including LCD and LED television); Monitors and projectors, not incorporating television reception apparatus; reception apparatus for television, whether or not incorporating radio- broadcast receiver or sound or video recording or reproducing apparatus, set top box for television and Television set (including LCD and LED television).",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4802": {
+        "rate": "12%",
+        "description": "Handmade Paper and Paper board",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4701": {
+        "rate": "178",
+        "description": "Mechanical wood pulp",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4703": {
+        "rate": "180",
+        "description": "Chemical wood pulp, soda or sulphate, other than dissolving grades",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4704": {
+        "rate": "181",
+        "description": "Chemical wood pulp, sulphite, other than dissolving grades",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4705": {
+        "rate": "182",
+        "description": "Wood pulp obtained by a combination of mechanical and chemical pulping processes",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4706": {
+        "rate": "183",
+        "description": "Pulps of \ufb01bres derived from recovered (waste and scrap) paper or paperboard or of other \ufb01brous cellulosic material",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "481730": {
+        "rate": "5%",
+        "description": "Boxes, pouches, wallets and writing compendiums, of paper or paperboard, containing an assortment of paper stationery",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "481910": {
+        "rate": "5%",
+        "description": "Cartons, boxes and cases of,- a. Corrugated paper or paper boards; or b. Non-corrugated paper or paper board",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "481920": {
+        "rate": "5%",
+        "description": "Cartons, boxes and cases of,- a. Corrugated paper or paper boards; or b. Non-corrugated paper or paper board",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4823": {
+        "rate": "5%",
+        "description": "Paper pulp moulded trays",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "48": {
+        "rate": "12% to 18%",
+        "description": "Paper Sack and Bio degradable bags",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "99972": {
+        "rate": "18%",
+        "description": "Beauty and physical well-being services falling under group",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8703": {
+        "rate": "28% to 40%",
+        "description": "Motor cars and other motor vehicles principally designed for the transport of persons (other than those of heading 8702), including station wagons and racing cars, other than those mentioned at Sr. Nos.4,5,6,7,8 and 9 of above table [wherein 28% to 18% is mentioned ]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8711": {
+        "rate": "28% to 40%",
+        "description": "Motor cycles of engine capacity exceeding 350 cc",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8432": {
+        "rate": "12% to 5%",
+        "description": "Agricultural, horticultural or forestry machinery for soil preparation or cultivation; lawn or sports-ground rollers; Parts [8432 90]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "25151210": {
+        "rate": "5%",
+        "description": "Marble and travertine blocks",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2516": {
+        "rate": "5%",
+        "description": "Granite blocks",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4203": {
+        "rate": "12% to 5%",
+        "description": "Gloves specially designed for use in sports",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8702": {
+        "rate": "28% to 18%",
+        "description": "Motor vehicles cleared as ambulances duly \ufb01tted with all the \ufb01tments, furniture and accessories necessary for an ambulance from the factory manufacturing such motor vehicles",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8708": {
+        "rate": "28% to 18%",
+        "description": "Parts and accessories of the motor vehicles of headings 8701 to 8705 [other than speci\ufb01ed parts of tractors]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5407": {
+        "rate": "5%",
+        "description": "manmade \ufb01bre",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5509": {
+        "rate": "5%",
+        "description": "Yarn of manmade staple \ufb01bres",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "85414011": {
+        "rate": "5%",
+        "description": "renewable energy devices and parts for their manufacture",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9963": {
+        "rate": "5%",
+        "description": "Supply of \u201chotel accommodation\u201d having value of supply of a unit of accommodation less than or equal to seven thousand \ufb01ve hundred rupees per unit per day or equivalent",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9997": {
+        "rate": "18%",
+        "description": "Beauty and physical well- being services falling under group 99972",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "870340": {
+        "rate": "28% to 40%",
+        "description": "Motor vehicles with both spark-ignition internal combustion reciprocating piston engine and electric motor as motors for propulsion, of engine capacity exceeding 1200cc or of length exceeding 4000 mm",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "870360": {
+        "rate": "28% to 40%",
+        "description": "Motor vehicles with both spark-ignition internal combustion reciprocating piston engine and electric motor as motors for propulsion, of engine capacity exceeding 1200cc or of length exceeding 4000 mm",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "870350": {
+        "rate": "28% to 40%",
+        "description": "Motor vehicles with both compression-ignition internal combustion piston engine [diesel-or semi diesel] and electric motor as motors for propulsion, of engine capacity exceeding 1500cc or of length exceeding 4000 mm",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "870370": {
+        "rate": "28% to 40%",
+        "description": "Motor vehicles with both compression-ignition internal combustion piston engine [diesel-or semi diesel] and electric motor as motors for propulsion, of engine capacity exceeding 1500cc or of length exceeding 4000 mm",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "94012000": {
+        "rate": "28% to 40%",
+        "description": "Seats of a kind used for motor vehicles",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "64": {
+        "rate": "Nil",
+        "description": "Footwear of sale value exceeding Rs.2500 per pair",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9954": {
+        "rate": "18%",
+        "description": "Composite supply of works contract and associated services, in respect of offshore works contract relating to oil and gas exploration and production in offshore area",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9964": {
+        "rate": "18%",
+        "description": "Supply of Passenger transport by any motor vehicle where fuel cost is included",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9965": {
+        "rate": "18%",
+        "description": "Supply of Multimodal transport of goods within India",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9966": {
+        "rate": "18%",
+        "description": "Supply of Renting of goods carriage (with operator) where fuel cost is included in consideration",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9968": {
+        "rate": "18%",
+        "description": "Supply of local delivery services through Electronic Commerce Operator (ECO)",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9971": {
+        "rate": "18%",
+        "description": "(ii) All individual life insurance, along with reinsurance thereof",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9973": {
+        "rate": "40%",
+        "description": "Leasing or rental services, without operator, of goods which will attract (28%)",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9983": {
+        "rate": "18%",
+        "description": "Other professional, technical and business services relating to exploration, mining or drilling of petroleum crude or natural gas or both",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9986": {
+        "rate": "18%",
+        "description": "Support services to exploration, mining or drilling of petroleum crude or natural gas or both.",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9988": {
+        "rate": "18%",
+        "description": "Supply of job-work not elsewhere covered (residual entry)",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9994": {
+        "rate": "5%",
+        "description": "Services by way of treatment or disposal of biomedical waste or the processes incidental thereto by a common bio- medical waste treatment facility to a clinical establishment.",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9996": {
+        "rate": "40%",
+        "description": "Admission to casinos, race clubs, any place having casinos or race clubs, or sporting events like the IPL.",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "Anychapter": {
+        "rate": "Nil",
+        "description": "Parts, sub-assemblies, spares, accessories, tools, testing equipment, literature for goods like artillery weapons, ri\ufb02es, aircrafts etc. except for 12.7mm SRCG, 155mm/45 Cal. Dhanush, L-70 Gun, 84mm RL Mk-III, AK-630 Naval Gun, Light machine gun, MAG Gun.",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "420239": {
+        "rate": "153",
+        "description": "Handicraft- Handbags including pouches and purses; jewellery box",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "44,68,83": {
+        "rate": "157",
+        "description": "Idols of wood, stone [including marble] and metals [other than those made of precious metals]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "44": {
+        "rate": "158",
+        "description": "The following goods, namely: \u2014 a. Cement Bonded Particle Board; b. Jute Particle Board; c. Rice Husk Board; d. Glass-\ufb01bre Reinforced Gypsum Board (GRG) e. Sisal-\ufb01bre Boards; f. Bagasse Board; and g. Cotton Stalk Particle Board h. Particle/\ufb01bre board manufactured from agricultural crop residues",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4404": {
+        "rate": "159",
+        "description": "Hoopwood; split poles; piles, pickets and stakes of wood, pointed but not sawn lengthwise; wooden sticks, roughly trimmed but not turned, bent or otherwise worked, suitable for the manufacture of walking-sticks, umbrellas, tool handles or the like",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4405": {
+        "rate": "160",
+        "description": "Wood wool; wood \ufb02our",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4406": {
+        "rate": "161",
+        "description": "Railway or tramway sleepers (cross-ties) of wood",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4408": {
+        "rate": "162",
+        "description": "Sheets for veneering (including those obtained by slicing laminated wood), for plywood or for similar laminated wood and other wood, sawn lengthwise, sliced or peeled, whether or not planed, sanded, spliced or end-jointed, of a thickness not exceeding 6 mm [for match splints]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4409": {
+        "rate": "163",
+        "description": "Bamboo \ufb02ooring",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4414": {
+        "rate": "164",
+        "description": "Handicraft- Wooden frames for painting, photographs, mirrors etc",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4415": {
+        "rate": "165",
+        "description": "Packing cases, boxes, crates, drums and similar packings, of wood; cable-drums of wood; pallets, box pallets and other load boards, of wood; pallet collars of wood",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4416,44219990": {
+        "rate": "166",
+        "description": "Handicraft- Carved wood products, art ware/ decorative articles of wood (including inlay work, casks, barrel, vats)",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4416": {
+        "rate": "167",
+        "description": "Casks, barrels, vats, tubs and other coopers\u2019 products and parts thereof, of wood, including staves",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4417": {
+        "rate": "168",
+        "description": "Tools, tool bodies, tool handles, broom or brush bodies and handles, of wood; boot or shoe lasts and trees, of wood",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4418": {
+        "rate": "169",
+        "description": "Bamboo wood building joinery",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4420": {
+        "rate": "172",
+        "description": "Handicraft- Statuettes & other ornaments of wood, wood marquetry & inlaid, jewellery box, wood lathe and lacquer work [including lathe and lacquer work, ambadi sisal craft]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4421": {
+        "rate": "173",
+        "description": "Other articles of wood; such as clothes hangers, Spools, cops, bobbins, sewing thread reels and the like of turned wood for various textile machinery, Match splints, Pencil slats, Parts of wood, namely oars, paddles and rudders for ships, boats and other similar \ufb02oating structures, Parts of domestic decorative articles used as tableware and kitchenware [other than Wood paving blocks, articles of densi\ufb01ed wood not elsewhere included or speci\ufb01ed, Parts of domestic decorative articles used as tableware and kitchenware]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "45020000": {
+        "rate": "174",
+        "description": "Natural cork, debacked or roughly squared, or in rectangular (including square) blocks, plates, sheets or strip (including sharp-edged blanks for corks or stoppers)",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4503": {
+        "rate": "175",
+        "description": "Articles of natural cork such as Corks and Stoppers, Shuttlecock cork bottom",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "45039090,450490": {
+        "rate": "176",
+        "description": "Handicraft- Art ware of cork [including articles of sholapith]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4504": {
+        "rate": "177",
+        "description": "Agglomerated cork (with or without a binding substance) and articles of agglomerated cork",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4702": {
+        "rate": "179",
+        "description": "Chemical wood pulp, dissolving grades",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4804": {
+        "rate": "187",
+        "description": "Uncoated kraft paper and paperboard, in rolls or sheets, other than that of heading 4802 or 4803",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4805": {
+        "rate": "188",
+        "description": "Other uncoated paper and paperboard, in rolls or sheets, not further worked or processed than as speci\ufb01ed in Note 3 to this Chapter",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "48062000": {
+        "rate": "189",
+        "description": "Greaseproof papers",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "48064010": {
+        "rate": "190",
+        "description": "Glassine papers",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4807": {
+        "rate": "191",
+        "description": "Composite paper and paperboard (made by sticking \ufb02at layers of paper or paperboard together with an adhesive), not surface-coated or impregnated, whether or not internally reinforced, in rolls or sheets",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4808": {
+        "rate": "192",
+        "description": "Paper and paperboard, corrugated (with or without glued \ufb02at surface sheets), creped",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "940150": {
+        "rate": "12%",
+        "description": "Furniture of bamboo, rattan and cane",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "940380": {
+        "rate": "12%",
+        "description": "Furniture of bamboo, rattan and cane",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "940510": {
+        "rate": "12%",
+        "description": "Handcrafted lamps (including panchloga lamp)",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9503": {
+        "rate": "12%",
+        "description": "Dolls or other toys made of wood or metal or textile material [incl wooden toys of sawantwadi, Channapatna toys, Thanjavur doll)",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9504": {
+        "rate": "12%",
+        "description": "Ganjifa card",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9506": {
+        "rate": "12% to 5%",
+        "description": "Sports goods other than articles and equipment for general physical exercise",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9507": {
+        "rate": "12% to 5%",
+        "description": "Fishing rods, and other line \ufb01shing tackle; \ufb01sh landing nets, butter\ufb02y nets and similar nets; decoy \u201cbirds\u201d (other than those of heading 9208 or 9705) and similar hunting or shooting requisites",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9601": {
+        "rate": "12%",
+        "description": "Worked articles of ivory, bone, tortoise shell, horn, antlers, coral, mother of pearl, seashell other animal carving material",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9602": {
+        "rate": "12%",
+        "description": "Worked vegetable or mineral carving, articles thereof, articles of wax, of stearin, of natural gums or natural resins or of modelling pastes etc, (including articles of lac, shellac)",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9607": {
+        "rate": "18%",
+        "description": "Slide fasteners and parts thereof",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9614": {
+        "rate": "18%",
+        "description": "Smoking pipes (including pipe bowls) and cigar or cigarette holders, and parts thereof",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9701": {
+        "rate": "12%",
+        "description": "Hand paintings drawings and pastels (incl Mysore painting, Rajasthan painting, Tanjore painting, Palm leaf painting, basoli etc)",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9702": {
+        "rate": "12%",
+        "description": "Original engravings, prints and lithographs",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9703": {
+        "rate": "12%",
+        "description": "Original sculptures and statuary, in metal, stone or any material",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9705": {
+        "rate": "12%",
+        "description": "Collections and collectors' pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, paleontological, ethnographic or numismatic interest [including numismatic coins]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "9706": {
+        "rate": "12%",
+        "description": "Antiques of an age exceeding one hundred years",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1905": {
+        "rate": "5%",
+        "description": "Pastry, cakes, biscuits and other bakers\u2019 wares, w containing cocoa; communion wafers, empty cac suitable for pharmaceutical use, sealing wafer and similar products",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "04029110": {
+        "rate": "5%",
+        "description": "Condensed milk",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "04029920": {
+        "rate": "5%",
+        "description": "Condensed milk",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "0405": {
+        "rate": "5%",
+        "description": "Butter and other fats (i.e. ghee, butter oil, etc.) from milk; dairy spreads",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "0801": {
+        "rate": "5%",
+        "description": "Brazil nuts, dried, whether or not Shelled or Peel",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "0802": {
+        "rate": "5%",
+        "description": "Other nuts, dried, whether or not shelled or Almonds, Hazelnuts or \ufb01lberts (Corylus s (Castanea spp.), Pistachos, Macadamia nuts, Kola Pine nuts [other than dried areca nuts]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "0804": {
+        "rate": "5%",
+        "description": "Dates (soft or hard), \ufb01gs, pineapples, avocados, g (other than mangoes sliced, dried) and mangoste",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "0805": {
+        "rate": "5%",
+        "description": "Citrus fruit, such as Oranges, Mandarins (inclu and satsumas); clementines, wilkings and simila Grapefruit, including pomelos, Lemons (Citru limonum) and limes (Citrus aurantifolia, Citrus la",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "0813": {
+        "rate": "5%",
+        "description": "Fruit, dried, other than that of headings 0801 to of nuts or dried fruits of Chapter 8 [other than d",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1108": {
+        "rate": "5%",
+        "description": "Starches; inulin",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1501": {
+        "rate": "5%",
+        "description": "Pig fats (including lard) and poultry fat, oth heading 0209 or 1503",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1502": {
+        "rate": "5%",
+        "description": "Fats of bovine animals, sheep or goats, other heading 1503",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1503": {
+        "rate": "5%",
+        "description": "Lard stearin, lard oil, oleo stearin, oleo-oil and emulsi\ufb01ed or mixed or otherwise prepared",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1504": {
+        "rate": "5%",
+        "description": "Fats and oils and their fractions, of \ufb01sh or ma whether or not re\ufb01ned, but not chemically modi\ufb01",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1505": {
+        "rate": "5%",
+        "description": "Wool grease and fatty substances derived there lanolin)",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1506": {
+        "rate": "5%",
+        "description": "Other animal fats and oils and their fractions, re\ufb01ned, but not chemically modi\ufb01ed",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1516": {
+        "rate": "5%",
+        "description": "Animal or microbial fats and animal or micr their fractions, partly or wholly hydr esteri\ufb01ed, re-esteri\ufb01ed or elaidinised, whether but not further prepared",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1517": {
+        "rate": "5%",
+        "description": "Edible mixtures or preparations of animal fats or animal oils or microbial oils or of fraction animal fats or microbial fats or animal oils or this Chapter, other than edible fats or oils or th heading 1516",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1518": {
+        "rate": "5%",
+        "description": "Animal or microbial fats and animal or micr their fractions, boiled, oxidised, dehydrat blown, polymerised by heat in vacuum or i otherwise chemically modi\ufb01ed, excluding tho 1516; inedible mixtures or preparations of a or microbial fats or oils or of fractions of di oils of this chapter, not elsewhere speci\ufb01ed o",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1601": {
+        "rate": "5%",
+        "description": "Sausages and similar products, of meat, meat insects; food preparations based on these prod",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1602": {
+        "rate": "5%",
+        "description": "Other prepared or preserved meat, meat offal, bl",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1603": {
+        "rate": "5%",
+        "description": "Extracts and juices of meat, \ufb01sh or crustacea other aquatic invertebrates",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1604": {
+        "rate": "5%",
+        "description": "Prepared or preserved \ufb01sh; caviar and ca prepared from \ufb01sh eggs",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1605": {
+        "rate": "5%",
+        "description": "Crustaceans, molluscs and other aquatic inverte or preserved",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "170191": {
+        "rate": "5%",
+        "description": "All goods, including re\ufb01ned sugar containing a or colouring matter, sugar cubes (other than tho 5% or nil GST)",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "170199": {
+        "rate": "5%",
+        "description": "All goods, including re\ufb01ned sugar containing a or colouring matter, sugar cubes (other than tho 5% or nil GST)",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1902": {
+        "rate": "5%",
+        "description": "Pasta, whether or not cooked or stuffed (with substances) or otherwise prepared, such as spag noodles, lasagne, gnocchi, ravioli, cannelloni; co or not prepared",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "19059030": {
+        "rate": "5%",
+        "description": "Extruded or expanded products, savoury or sa un-fried or un-cooked snack pellets, by whatev manufactured through process of extrusion)",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2001": {
+        "rate": "5%",
+        "description": "Vegetables, fruit, nuts and other edible parts of or preserved by vinegar or acetic acid",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2002": {
+        "rate": "5%",
+        "description": "Tomatoes prepared or preserved otherwise tha acetic acid",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2003": {
+        "rate": "5%",
+        "description": "Mushrooms and tru\ufb04es, prepared or preserved by vinegar or acetic acid",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2004": {
+        "rate": "5%",
+        "description": "Other vegetables prepared or preserved oth vinegar or acetic acid, frozen, other than prod 2006",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2005": {
+        "rate": "5%",
+        "description": "Other vegetables prepared or preserved oth vinegar or acetic acid, not frozen, other than pro 2006",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2006": {
+        "rate": "12%",
+        "description": "Vegetables, fruit, nuts, fruit-peel and other p preserved by sugar (drained, glac\u00e9 or crystallised",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2007": {
+        "rate": "5%",
+        "description": "Jams, fruit jellies, marmalades, fruit or nut pu nut pastes, obtained by cooking, whether or added sugar or other sweetening matter",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2008": {
+        "rate": "12%",
+        "description": "Fruit, nuts and other edible parts of plants, oth or preserved, whether or not containing added sweetening matter or spirit, not elsewhere speci such as Ground-nuts, Cashew nut, roasted, salted salted, Other roasted nuts and seeds, squash of Orange, Pineapple or other fruits",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2009": {
+        "rate": "5%",
+        "description": "Fruit or nut juices (including grape must) juices, unfermented and not containing whether or not containing added sugar or ot matter",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "20098990": {
+        "rate": "12%",
+        "description": "Tender coconut water, pre-packaged and labelled",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "210130": {
+        "rate": "5%",
+        "description": "Roasted chicory and other roasted coffee s extracts, essences and concentrates thereof",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2102": {
+        "rate": "5%",
+        "description": "Yeasts (active and inactive); other single cell m dead (but not including vaccines of heading baking powders",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2103": {
+        "rate": "12%",
+        "description": "All goods, including Sauces and preparations condiments and mixed seasonings; mustard \ufb02ou prepared mustard, Curry paste, mayonnaise and",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "21069091": {
+        "rate": "12%",
+        "description": "Diabetic foods",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2201": {
+        "rate": "Nil",
+        "description": "Waters, including natural or arti\ufb01cial miner",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "22029910": {
+        "rate": "12%",
+        "description": "Soya milk drinks",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "22029920": {
+        "rate": "12%",
+        "description": "Fruit pulp or fruit juice based drinks Carbonated Beverages of Fruit Drink or Carbo with Fruit Juice]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "22029930": {
+        "rate": "12%",
+        "description": "Beverages containing milk (18% to 5%)",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1107": {
+        "rate": "5%",
+        "description": "Malt, whether or not roasted",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1302": {
+        "rate": "5%",
+        "description": "Vegetable saps and extracts; pectic substances, p pectates; agar-agar and other mucilages an whether or not modi\ufb01ed, derived from veget [other than tamarind kernel powder]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "151710": {
+        "rate": "12%",
+        "description": "All goods i.e. Margarine, Linoxyn",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "15200000": {
+        "rate": "18%",
+        "description": "Glycerol, crude; glycerol waters and glycerol lyes",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1521": {
+        "rate": "18%",
+        "description": "Vegetable waxes (other than triglycerides), Be insect waxes and spermaceti, whether or n coloured",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1522": {
+        "rate": "5%",
+        "description": "Degras, residues resulting from the treatm substances or animal or vegetable waxes",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1702": {
+        "rate": "5%",
+        "description": "Other sugars, including chemically pure lac glucose and fructose, in solid form; sugar containing added \ufb02avouring or colouring ma honey, whether or not mixed with natural ho [other than palmyra sugar and Palmyra jaggery]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1804": {
+        "rate": "12%",
+        "description": "Cocoa butter, fat and oil",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1805": {
+        "rate": "18%",
+        "description": "Cocoa powder, not containing added sugar o matter",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1806": {
+        "rate": "18%",
+        "description": "Chocolates and other food preparations containin",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1901": {
+        "rate": "18%",
+        "description": "Malt extract, food preparations of \ufb02our, groats, m malt extract, not containing cocoa or containing by weight of cocoa calculated on a totally defat elsewhere speci\ufb01ed or included; food preparatio heading 0401 to 0404, not containing cocoa or c than 5% by weight of cocoa calculated on a to basis not elsewhere speci\ufb01ed or included",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "1904": {
+        "rate": "5%",
+        "description": "All goods i.e. Corn \ufb02akes, bulgar wheat, pr obtained from cereal \ufb02akes",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "210111": {
+        "rate": "5%",
+        "description": "Extracts, essences and concentrates of preparations with a basis of these extracts, concentrates or with a basis of coffee",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "21011200": {
+        "rate": "5%",
+        "description": "Extracts, essences and concentrates of preparations with a basis of these extracts, concentrates or with a basis of coffee",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "210120": {
+        "rate": "5%",
+        "description": "All goods i.e Extracts, essences and concentra mate, and preparations with a basis of these extr or concentrates or with a basis of tea or mate",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2104": {
+        "rate": "12%",
+        "description": "Soups and broths and preparations therefor; composite food preparations",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "21050000": {
+        "rate": "12%",
+        "description": "Ice cream and other edible ice, whether or n cocoa",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "22029100": {
+        "rate": "28% to 40%",
+        "description": "Other non-alcoholic beverages",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "220299": {
+        "rate": "28% to 40%",
+        "description": "Other non-alcoholic beverages",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "21069020": {
+        "rate": "18% to 5%",
+        "description": "*Pan masala",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "220210": {
+        "rate": "18% to 5%",
+        "description": "All goods [including aerated waters], containing added sugar or other sweetening matter or \ufb02avoured",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "22029990": {
+        "rate": "18% to 5%",
+        "description": "Caffeinated Beverages",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2202": {
+        "rate": "18% to 5%",
+        "description": "Carbonated Beverages of Fruit Drink or Carbonated Beverages with Fruit Juice",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "14049010": {
+        "rate": "18% to 5%",
+        "description": "Bidi wrapper leaves (tendu)",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "14049050": {
+        "rate": "28% to 18%",
+        "description": "Indian katha",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2403": {
+        "rate": "28% to 40%",
+        "description": "*Other manufactured tobacco and manufactured tobacco substitutes; \u201chomogenised\u201d or \u201creconstituted\u201d tobacco; tobacco extracts and essences",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2401": {
+        "rate": "28% to 40%",
+        "description": "*Unmanufactured tobacco; tobacco refuse [other than stems and mid-ribs of tobacco leaves]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2402": {
+        "rate": "28% to 40%",
+        "description": "*Cigars, cheroots, cigarillos and cigarettes, of tobacco or tobacco substitutes",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "24041100": {
+        "rate": "28% to 40%",
+        "description": "*Products containing tobacco or reconstituted tobacco, intended for inhalation without combustion",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "24041900": {
+        "rate": "28% to 40%",
+        "description": "*Products containing tobacco or nicotine substitutes, intended for inhalation without combustion",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8408": {
+        "rate": "12% to 5%",
+        "description": "Fixed Speed Diesel Engines of power not exceeding 15 HP",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "84142020": {
+        "rate": "12% to 5%",
+        "description": "Other hand pumps",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8424": {
+        "rate": "12% to 5%",
+        "description": "Sprinklers; drip irrigation system including lateral",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8433": {
+        "rate": "12% to 5%",
+        "description": "Harvesting or threshing machinery, including straw or fodder balers; grass or hay mowers; parts thereof",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8436": {
+        "rate": "12% to 5%",
+        "description": "Other agricultural, horticultural, forestry, poultry-keeping or bee-keeping machinery, including germination plant fitted with mechanical or thermal equipment; poultry incubators and brooders; parts thereof",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8479": {
+        "rate": "12% to 5%",
+        "description": "Composting Machines",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8701": {
+        "rate": "5% or 18%",
+        "description": "SPLIT CATEGORY: Agricultural Tractors (<1800cc) are 5%. Road Tractors/others (>1800cc) are 18%. Auditor MUST check invoice description.",
+        "legal_ref": "Notification No. 1/2017-Central Tax (Rate)",
+        "type": "GOODS"
+    },
+    "87162000": {
+        "rate": "12% to 5%",
+        "description": "Self-loading or self-unloading trailers for agricultural purposes",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "871680": {
+        "rate": "12% to 5%",
+        "description": "Hand propelled vehicles (e.g. hand carts, rickshaws and the like); animal drawn vehicles",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "29": {
+        "rate": "12% to 5%",
+        "description": "Gibberellic acid",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "380893": {
+        "rate": "12% to 5%",
+        "description": "Gibberellic acid",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "3808": {
+        "rate": "12% to 5%",
+        "description": "The following Bio-pesticides, namely -",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "38": {
+        "rate": "12% to 5%",
+        "description": "Micronutrients, which are covered under serial number 1(g) of Schedule 1, Part (A) of the Fertilizer Control Order, 1985 and are manufactured by the manufacturers which are registered under the Fertilizer Control Order, 1985",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4011": {
+        "rate": "28% to 18%",
+        "description": "New pneumatic tyres, of rubber [other than of a kind used on/in bicycles, cycle-rickshaws and three wheeled powered cycle rickshaws; rear tractor tyres; and of a kind used on aircraft]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "40117000": {
+        "rate": "18% to 5%",
+        "description": "Tyre for tractors",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "40139049": {
+        "rate": "18% to 5%",
+        "description": "Tube for tractor tyres",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "84082020": {
+        "rate": "18% to 5%",
+        "description": "Agricultural Diesel Engine of cylinder capacity exceeding 250 cc for Tractor",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "84138190": {
+        "rate": "18% to 5%",
+        "description": "Hydraulic Pumps for Tractors",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "87081010": {
+        "rate": "18% to 5%",
+        "description": "Bumpers and parts thereof for tractors",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "87083000": {
+        "rate": "18% to 5%",
+        "description": "Brakes assembly and its parts thereof for tractors",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "87084000": {
+        "rate": "18% to 5%",
+        "description": "Gear boxes and parts thereof for tractors",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "87085000": {
+        "rate": "18% to 5%",
+        "description": "Transaxles and its parts thereof for tractors",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "87087000": {
+        "rate": "18% to 5%",
+        "description": "Road wheels and parts and accessories thereof for tractors",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "870800": {
+        "rate": "18% to 5%",
+        "description": "Radiator assembly for tractors and parts thereof; Cooling system for tractor engine and parts thereof",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "87089200": {
+        "rate": "18% to 5%",
+        "description": "Silencer assembly for tractors and parts thereof",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "87089300": {
+        "rate": "18% to 5%",
+        "description": "Clutch assembly and its parts thereof for tractors",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "87089400": {
+        "rate": "18% to 5%",
+        "description": "Steering wheels and its parts thereof for tractor",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "87089900": {
+        "rate": "18% to 5%",
+        "description": "Fender, Hood, wrapper, Grill, Side Panel, Extension Plates, Fuel Tank and parts thereof for tractors\u2016",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2701": {
+        "rate": "5%",
+        "description": "Coal; briquettes, ovoids and similar solid fuels manufactured from coal",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2702": {
+        "rate": "5%",
+        "description": "Lignite, whether or not agglomerated, excluding jet",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "2703": {
+        "rate": "5%",
+        "description": "Peat (including peat litter), whether or not agglomerated",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8516": {
+        "rate": "5%",
+        "description": "Solar cookers",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "841912": {
+        "rate": "5%",
+        "description": "Solar water heater and system",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "84": {
+        "rate": "Nil",
+        "description": "Parts and sub-assemblies of IADWS",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "85": {
+        "rate": "Nil",
+        "description": "Parts and sub-assemblies of IADWS",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "94": {
+        "rate": "5%",
+        "description": "Following renewable energy devices and parts for their manufacture:- (a) Bio-gas plant; (b) Solar power-based devices; (c) Solar power generator; (d) Wind mills, Wind Operated Electricity Generator (WOEG); (e) Waste to energy plants / devices; (f) Solar lantern / solar lamp; (g) Ocean waves/tidal waves energy devices/plants; (h) Photo voltaic cells, whether or not assembled in modules or made up into panels.",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "87": {
+        "rate": "Nil",
+        "description": "Parts and sub-assemblies of IADWS",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5401": {
+        "rate": "5%",
+        "description": "Sewing thread of manmade \ufb01laments, whether or not put up for retail sale",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5508": {
+        "rate": "5%",
+        "description": "Sewing thread of manmade staple \ufb01bres",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5510": {
+        "rate": "5%",
+        "description": "Yarn of manmade staple \ufb01bres",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5511": {
+        "rate": "5%",
+        "description": "Yarn of manmade staple \ufb01bres",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5601": {
+        "rate": "5%",
+        "description": "Wadding of textile materials and articles thereof; such as absorbent cotton wool (except cigarette \ufb01lter rods)",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5602": {
+        "rate": "5%",
+        "description": "Felt, whether or not impregnate, coated, covered or laminated",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5603": {
+        "rate": "5%",
+        "description": "Nonwovens, whether or not impregnated, coated, covered or laminated",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5604": {
+        "rate": "5%",
+        "description": "Rubber thread and cord, textile covered; textile yarn, and strip and the like of heading 5404 or 5405, impregnated, coated, covered or sheathed with rubber or plastics",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5605": {
+        "rate": "5%",
+        "description": "Metallised yarn, whether or not gimped, being textile yarn or strip or the like of heading 5404 or 5405, combined with metal in the form of thread, strip or powder or covered with metal [ other than-(i) real zari thread (gold) and silver thread combined with textile thread (ii) imitation zari thread or yan known by any name in trade parlance]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5606": {
+        "rate": "5%",
+        "description": "Gimped yarn, and strip and the like of heading 5404 or 5405, gimped (other than those of heading 5605 and gimped horsehair yarn); chenille yarn (including \ufb02ock chenille yarn); loop wale-yarn",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5607": {
+        "rate": "5%",
+        "description": "Twine, cordage, ropes and cables, whether or not plaited or braided and whether or not impregnated, coated, covered or sheathed with rubber or plastics [other than jute twine, coir cordage or ropes]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5609": {
+        "rate": "5%",
+        "description": "Articles of yarn, strip or the like of heading 5404 or 5405, twine, cordage, rope or cables, not elsewhere speci\ufb01ed or included",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5701": {
+        "rate": "5%",
+        "description": "Carpets and other textile \ufb02oor coverings, knotted, whether or not made up",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5702": {
+        "rate": "5%",
+        "description": "Carpets and other textile \ufb02oor coverings, woven, not tufted or \ufb02ocked, whether or not made up, including \u201cKelem\u201d, \u201cSchumacks\u201d, \u201cKaramanie\u201d and similar hand-woven rugs",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5703": {
+        "rate": "5%",
+        "description": "Carpets and other textile \ufb02oor coverings (including Turf), tufted, whether or not made up",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5704": {
+        "rate": "5%",
+        "description": "Carpets and other textile \ufb02oor coverings, of felt, not tufted or \ufb02ocked, whether or not made up",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5705": {
+        "rate": "5%",
+        "description": "Other carpets and other textile \ufb02oor coverings, whether or not made up; such as Mats and mattings including Bath Mats, where cotton predominates by weight, of Handloom, Cotton Rugs of handloom",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5802": {
+        "rate": "5%",
+        "description": "Terry towelling and similar woven terry fabrics, other than narrow fabrics of heading 5806; tufted textile fabrics, other than products of heading 5703",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5803": {
+        "rate": "5%",
+        "description": "Gauze, other than narrow fabrics of heading 5806",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5804": {
+        "rate": "5%",
+        "description": "Tulles and other net fabrics, not including woven, knitted or crocheted fabrics; lace in the piece, in strips or in motifs, other than fabrics of headings 6002 to 6006",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5805": {
+        "rate": "5%",
+        "description": "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais and the like, and needle-worked tapestries (for example, petit point, cross stitch), whether or not made up",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5807": {
+        "rate": "5%",
+        "description": "Labels, badges and similar articles of textile materials, in the piece, in strips or cut to shape or size, not embroidered",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5808": {
+        "rate": "5%",
+        "description": "Braids in the piece; ornamental trimmings in the piece, without embroidery, other than knitted or crocheted; tassels, pompons and similar articles[other than saree fall]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5809": {
+        "rate": "5%",
+        "description": "Woven fabrics of metal thread and woven fabrics of metallised yarn of heading 5605, of a kind used in apparel, as furnishing fabrics or for similar purposes, not elsewhere speci\ufb01ed or included; such as Zari borders",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5810": {
+        "rate": "5%",
+        "description": "Embroidery in the piece, in strips or in motifs, Embroidered badges, motifs and the like",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5811": {
+        "rate": "5%",
+        "description": "Quilted textile products in the piece, composed of one or more layers of textile materials assembled with padding by stitching or otherwise, other than embroidery of heading 5810",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5901": {
+        "rate": "5%",
+        "description": "Textile fabrics coated with gum or amylaceous substances, of a kind used for the outer covers of books",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "5902": {
+        "rate": "5%",
+        "description": "Tyre cord fabric of high tenacity yarn of nylon or other polyamides, polyesters or viscose rayon",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8704": {
+        "rate": "28% to 18%",
+        "description": "Motor vehicles for the transport of goods [other than Refrigerated motor vehicles]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8706": {
+        "rate": "28% to 18%",
+        "description": "Chassis \ufb01tted with engines, for the motor vehicles of headings 8701 to 8705",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8707": {
+        "rate": "28% to 18%",
+        "description": "Bodies (including cabs), for the motor vehicles of headings 8701 to 8705",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8903": {
+        "rate": "28% to 40%",
+        "description": "Yacht and other vessels for pleasure or sports",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8802": {
+        "rate": "28% to 40%",
+        "description": "Aircraft for personal use.",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "4107": {
+        "rate": "12% to 5%",
+        "description": "Leather further prepared after tanning or crusting, including parchment-dressed leather, of bovine (including buffalo) or equine animals, without hair on, whether or not split, other than leather of heading 4114",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "6802": {
+        "rate": "12%",
+        "description": "Carved stone products (e.g., statues, statuettes, \ufb01gures of animals, writing sets, ashtray, candle stand)",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "68159990": {
+        "rate": "12%",
+        "description": "Stone art ware, stone inlay work",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "691200": {
+        "rate": "12%",
+        "description": "Tableware and kitchenware of clay and terracotta, other clay articles",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "69139000": {
+        "rate": "12%",
+        "description": "Statuettes & other ornamental ceramic articles (incl blue potteries)",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "70099200": {
+        "rate": "12%",
+        "description": "Ornamental framed mirrors",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "70189010": {
+        "rate": "12%",
+        "description": "Glass statues [other than those of crystal]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "70200090": {
+        "rate": "12%",
+        "description": "Glass art ware [ incl. pots, jars, votive, cask, cake cover, tulip bottle, vase ]",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "73269099": {
+        "rate": "12%",
+        "description": "Art ware of iron",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "741980": {
+        "rate": "12%",
+        "description": "Art ware of brass, copper/ copper alloys, electro plated with nickel/silver",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "76169990": {
+        "rate": "12%",
+        "description": "Aluminium art ware",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8306": {
+        "rate": "12%",
+        "description": "Bells, gongs and like, non-electric, of base metal; statuettes, and other ornaments, of base metal; photograph, picture or similar frames, of base metal; mirrors of base metal; (including Bidriware, Panchloga artware, idol, Swamimalai bronze icons, dhokra jaali)",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8401": {
+        "rate": "18%",
+        "description": "Fuel elements (cartridges), non-irradiated, reactors",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8806": {
+        "rate": "5%",
+        "description": "Unmanned aircrafts",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "49": {
+        "rate": "Nil",
+        "description": "Technical documentation in respect of goods exempted under noti\ufb01cation No. 19/ 2019-Customs dated 06.07.2019.",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "71": {
+        "rate": "Nil",
+        "description": "Natural Cut and Polished Diamonds up to 25 cents (1/4 carats) imported under Diamond Imprest Authorization Scheme",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "88": {
+        "rate": "Nil",
+        "description": "RPA (Remote Piloted Aircraft) for military use",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8536": {
+        "rate": "Nil",
+        "description": "Target Motion Simulator and its parts",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "93": {
+        "rate": "Nil",
+        "description": "Rockets with calibre more than 100mm",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "89": {
+        "rate": "Nil",
+        "description": "Sonobuoys for naval air assets",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8807": {
+        "rate": "Nil",
+        "description": "Ejection Seats for \ufb01ghter aircrafts",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8506": {
+        "rate": "Nil",
+        "description": "High performance batteries for drones and specialised equipment",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "8525": {
+        "rate": "Nil",
+        "description": "Communication devices including software de\ufb01ned radios with component and accessories",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    },
+    "996813": {
+        "rate": "18%",
+        "description": "Local delivery services",
+        "legal_ref": "Notification No. 11/2017-Central Tax (Rate)"
+    }
+}
