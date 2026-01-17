@@ -1,15 +1,25 @@
 import asyncio
 from dotenv import load_dotenv
 import os
+import logging
 
 # Load environment variables before importing modules that might use them
 load_dotenv()
+
+# High-Priority: Sanitize Loggers (Silence Library Noise)
+logging.basicConfig(level=logging.INFO)
+logging.getLogger("httpx").setLevel(logging.WARNING)
+logging.getLogger("openai").setLevel(logging.WARNING)
+logging.getLogger("httpcore").setLevel(logging.WARNING)
 
 from app.agents.auditor import run_audit
 from app.agents.extractor import extract_from_invoice
 from app.core.schemas import InvoiceInput
 import sys
 import time
+
+def format_currency(amount: float) -> str:
+    return f"₹{amount:,.2f}"
 
 async def main():
     invoice_data = None
@@ -33,23 +43,32 @@ async def main():
     else:
         # Fallback to Mock Data
         print("[*] No file provided. Using Mock Invoice for simulation.")
+        from app.core.schemas import InvoiceItem
         invoice_data = InvoiceInput(
             invoice_number="SENTINEL-MOCK-001",
             vendor_name="Varanasi Tech Solutions",
-            hsn_code="998311",
-            taxable_value=1000.0,
-            gst_rate=0.18,
-            total_gst_charged=250.0 # Intentional Error (Should be 180)
+            items=[
+                InvoiceItem(
+                    description="IT Consulting",
+                    hsn_code="998311",
+                    taxable_value=1000.0,
+                    gst_rate_charged=18.0,
+                    gst_amount_charged=180.0
+                )
+            ],
+            total_taxable_value=1000.0,
+            total_gst_amount=250.0 # Intentional Math Error (Total says 250, Item says 180)
         )
 
     # 2. AUDIT PROCESS (With RAG + Validator)
-    print(f"[*] Starting Audit for HSN {invoice_data.hsn_code}...")
+    print(f"[*] Starting Audit for Invoice {invoice_data.invoice_number}...")
     try:
         result = await run_audit(invoice_data)
         
         # 3. REPORTING
         print("\n=== TAX SENTINEL AUDIT REPORT ===")
         print(f"Status:      {'✅ COMPLIANT' if result.is_compliant else '❌ NON-COMPLIANT'}")
+        print(f"Math Check:  {'✅ PASS' if result.math_compliant else '❌ FAIL'}")
         print(f"Confidence:  {result.confidence_score * 100:.1f}%")
         
         if not result.is_compliant:
@@ -58,9 +77,9 @@ async def main():
                 print(f" - {error}")
             
             print(f"\n[i] TECHNICAL DETAILS:")
-            print(f"   Calculated GST: {result.calculated_gst_amount}")
-            print(f"   Charged GST:    {invoice_data.total_gst_charged}")
-            print(f"   Discrepancy:    {invoice_data.total_gst_charged - result.calculated_gst_amount}")
+            print(f"   Calculated GST: {format_currency(result.calculated_gst_amount)}")
+            print(f"   Charged GST:    {format_currency(invoice_data.total_gst_amount)}")
+            print(f"   Discrepancy:    {format_currency(invoice_data.total_gst_amount - result.calculated_gst_amount)}")
             
         print(f"\n[§] LEGAL REFERENCE:\n{result.legal_reference}")
     except Exception as e:

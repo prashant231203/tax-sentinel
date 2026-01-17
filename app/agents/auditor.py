@@ -13,14 +13,10 @@ import openai
 
 load_dotenv()
 
-# Initialize the OpenRouter Client
+# Initialize Groq Client
 base_client = AsyncOpenAI(
-    base_url="https://openrouter.ai/api/v1",
-    api_key=os.getenv("OPENROUTER_API_KEY"),
-    default_headers={
-        "HTTP-Referer": os.getenv("OPENROUTER_SITE_URL", "https://taxsentinel.com"),
-        "X-Title": os.getenv("OPENROUTER_APP_NAME", "TaxSentinel"),
-    }
+    base_url="https://api.groq.com/openai/v1",
+    api_key=os.getenv("GROQ_API_KEY"),
 )
 
 client = instructor.from_openai(base_client, mode=instructor.Mode.JSON)
@@ -34,6 +30,8 @@ try:
 except Exception as e:
     print(f"⚠️ Warning: Could not load HSN Rates JSON: {e}")
 
+from app.utils.reconciler import validate_invoice_math
+
 @traceable(name="TaxSentinel_OpenRouter_Audit")
 @retry(
     stop=stop_after_attempt(10),
@@ -41,71 +39,109 @@ except Exception as e:
     retry=retry_if_exception_type(openai.RateLimitError)
 )
 async def run_audit(invoice: InvoiceInput) -> TaxAuditResult:
-    print(f"[*] Auditing Invoice with HSN: {invoice.hsn_code}")
+    print(f"[*] Auditing Invoice Items ({len(invoice.items)} items)...")
     
-    # 1. HARD LOOKUP (Deterministic)
-    fact_context = ""
-    hsn_clean = str(invoice.hsn_code).replace(" ", "").replace(".", "").strip()
+    technical_violations = []
+    legal_violations = []
+    consolidated_calculated_gst = 0.0
+    primary_legal_ref = "Multiple - See Item Details"
     
-    # Strategy: Exact match -> 6 digit -> 4 digit -> 2 digit
-    rate_info = HSN_RATES.get(hsn_clean)
-    if not rate_info and len(hsn_clean) > 4:
-         rate_info = HSN_RATES.get(hsn_clean[:6])
-    if not rate_info and len(hsn_clean) > 4:
-         rate_info = HSN_RATES.get(hsn_clean[:4])
-         
-    if rate_info:
-        # DYNAMIC CITATION: Use the legal_ref if available, else generic.
-        legal_ref = rate_info.get('legal_ref', 'Notification No. 11/2017-Central Tax (Rate)')
-        fact_context = f"✅ KNOWN FACT: For HSN {hsn_clean}, the prescribed GST Rate is {rate_info['rate']}.\n   Description: {rate_info['description']}.\n   Source Authority: {legal_ref}"
-        print(f"[*] Fact Hit: {fact_context}")
-    else:
-        fact_context = f"⚠️ FACT MISSING: HSN {hsn_clean} not found in Master Rate List."
-        print("[!] Fact Miss: Relying solely on RAG.")
+    # 0. Deterministic Math Check (Reconciler)
+    is_math_valid, math_errors = validate_invoice_math(invoice)
+    if not is_math_valid:
+        technical_violations.extend(math_errors)
+        print(f"[!] Math Errors Detected: {len(math_errors)}")
 
-    # 2. RETRIEVE (Probabilistic - for Rules/Sections)
-    search_query = f"GST rules, valuation section, and penalty for HSN {invoice.hsn_code}"
-    # Use the filter we added to vector_service to prioritize matching HSN chunks
-    relevant_chunks = query_knowledge_base(search_query, filter_hsn=invoice.hsn_code)
+    # Loop through items
+    fact_context_accumulator = []
     
+    for i, item in enumerate(invoice.items):
+        print(f"[*] processing Item {i+1}: {item.hsn_code} - {item.description}")
+        
+        # 1. HARD LOOKUP (Deterministic)
+        hsn_clean = str(item.hsn_code).replace(" ", "").replace(".", "").strip()
+        
+        # Strategy: Exact match -> 6 digit -> 4 digit -> 2 digit
+        rate_info = HSN_RATES.get(hsn_clean)
+        # Fallback logic
+        if not rate_info and len(hsn_clean) > 4: rate_info = HSN_RATES.get(hsn_clean[:6])
+        if not rate_info and len(hsn_clean) > 4: rate_info = HSN_RATES.get(hsn_clean[:4])
+            
+        if rate_info:
+            legal_ref = rate_info.get('legal_ref', 'Notification No. 11/2017-Central Tax (Rate)')
+            # Only set primary ref if it's the first one found
+            if primary_legal_ref == "Multiple - See Item Details": primary_legal_ref = legal_ref
+            
+            fact_context_accumulator.append(
+                f"✅ KNOWN FACT (Item {i+1}): HSN {hsn_clean} -> Rate {rate_info['rate']}. Source: {legal_ref}"
+            )
+            
+            # DETERMINISTIC RATE CHECK (Bypass LLM if we have hard fact)
+            # Parse rate string "18%" -> 18.0
+            try:
+                base_rate = float(rate_info['rate'].replace('%', '').strip())
+                if abs(base_rate - item.gst_rate_charged) > 0.5:
+                     legal_violations.append(
+                         f"Item {i+1} ({item.description}): Rate Mismatch. "
+                         f"Charged {item.gst_rate_charged}%, Valid is {base_rate}%."
+                     )
+            except:
+                pass # If complex rate like "5% or 18%", let LLM handle it
+                
+        else:
+            fact_context_accumulator.append(f"⚠️ FACT MISSING (Item {i+1}): HSN {hsn_clean} not found.")
+
+    fact_context = "\n".join(fact_context_accumulator)
+
+
+        # Accumulated Calculation
+        # We use the CHARGED rate for math verification (done in Step 0), 
+        # but here we could track 'correct' tax if we wanted. 
+        # For this 'commercial grade' version, we trust the Reconciler for math 
+        # and the Fact lookup for Legal.
+        
+    # 2. RETRIEVE (Probabilistic - ONE PASS for entire invoice context or major items)
+    # Optimization: Just query for the first/major HSN to get general legal context
+    search_query = f"GST rules for HSN {invoice.items[0].hsn_code}"
+    relevant_chunks = query_knowledge_base(search_query, filter_hsn=invoice.items[0].hsn_code)
     context_text = "\n---\n".join(relevant_chunks)
     
     # 3. VALIDATE
-    # Only validate if we didn't find a hard fact, OR if we want to ensure sections are correct.
     validation = await validate_retrieval(search_query, context_text)
-    if not validation.is_relevant:
-        print(f"⚠️ Retrieval Warning: {validation.reason}")
     
     # RATE LIMIT BUFFER for FREE TIER
     print("[*] Cooling down for 10 seconds before Final Audit...")
     await asyncio.sleep(10)
 
-    # 4. AUDIT
+    # 4. AUDIT (The "Prosecutor" LLM Pass)
+    # We feed it the violations we already found deterministically
+    deterministic_notes = ""
+    if technical_violations: 
+        deterministic_notes += f"\n[AUTO-DETECTED MATH ERRORS]:\n- " + "\n- ".join(technical_violations)
+    if legal_violations:
+        deterministic_notes += f"\n[AUTO-DETECTED RATE ERRORS]:\n- " + "\n- ".join(legal_violations)
+
     return await client.chat.completions.create(
-        model="google/gemini-2.0-flash-exp:free", 
+        model="llama-3.3-70b-versatile", 
         response_model=TaxAuditResult,
         messages=[
             {
                 "role": "system", 
                 "content": (
                     "You are a Senior GST Auditor. "
+                    "Analyze the invoice data and the auto-detected errors."
                     "STRICT RULES: "
-                    "1. TRUST THE DATA: If the Fact Base mentions a rate reduction (e.g., 'Reduced from X to Y'), ALWAYS use the new 'To' rate (Y). "
-                    "2. SUB-CATEGORY CHECK: If a rate has 'SPLIT CATEGORY' (e.g., Tractors), you MUST check the Invoice Description. "
-                    "   - If Description matches 'Agricultural', use the lower rate. "
-                    "   - If 'Road' or >1800cc, use the higher rate. "
-                    "3. CORRECT CITATION: "
-                    "   - For GOODS (machines, products): Cite 'Notification No. 1/2017-Central Tax (Rate)'. "
-                    "   - For SERVICES (consulting, labor): Cite 'Notification No. 11/2017-Central Tax (Rate)'. "
-                    "   - If 'type' is provided in Fact Base, follow it. "
-                    "4. CONFIDENCE: If the Invoice Description is vague for a Split Category, lower your confidence to 70%."
+                    "1. If [AUTO-DETECTED] errors exist, you MUST include them in your final report. "
+                    "2. Verify the auto-findings against the Fact Base. "
+                    "3. For compliance, 'math_compliant' is False only if math errors exist. 'is_compliant' is False if ANY error exists."
                 )
             },
             {
                 "role": "user", 
                 "content": (
-                    f"INVOICE DATA: {invoice.model_dump_json()}\n\n"
-                    f"--- FACT BASE ---\n{fact_context}\n\n"
+                    f"INVOICE ITEMS: {invoice.model_dump_json()}\n\n"
+                    f"--- FACT BASE (Sample) ---\n{fact_context}\n\n"
+                    f"--- DETERMINISTIC FINDINGS ---\n{deterministic_notes}\n\n"
                     f"--- LEGAL CONTEXT ---\n{context_text}\n"
                 )
             }

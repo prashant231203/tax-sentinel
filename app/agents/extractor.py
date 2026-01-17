@@ -10,19 +10,15 @@ import openai
 load_dotenv()
 
 # CRITICAL: Fail fast if API key is missing
-api_key = os.getenv("OPENROUTER_API_KEY")
+api_key = os.getenv("GROQ_API_KEY")
 if not api_key:
-    raise ValueError("CRITICAL: OPENROUTER_API_KEY is not set.")
+    raise ValueError("CRITICAL: GROQ_API_KEY is not set.")
 
-# Initialize OpenRouter Client
+# Initialize Groq Client
 client = instructor.from_openai(
     OpenAI(
-        base_url="https://openrouter.ai/api/v1",
+        base_url="https://api.groq.com/openai/v1",
         api_key=api_key,
-        default_headers={
-            "HTTP-Referer": os.getenv("OPENROUTER_SITE_URL", "https://taxsentinel.com"),
-            "X-Title": os.getenv("OPENROUTER_APP_NAME", "TaxSentinel"),
-        }
     ),
     mode=instructor.Mode.JSON
 )
@@ -33,7 +29,7 @@ client = instructor.from_openai(
     retry=retry_if_exception_type(openai.RateLimitError)
 )
 def extract_from_invoice(file_path: str) -> InvoiceInput:
-    """Extracts structured data from Image or PDF using OpenRouter (Gemini/Claude)."""
+    """Extracts structured data from Image or PDF using Groq (Llama Vision)."""
     
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"File not found: {file_path}")
@@ -41,7 +37,7 @@ def extract_from_invoice(file_path: str) -> InvoiceInput:
     # Detect file type
     mime_type = "application/pdf" if file_path.lower().endswith(".pdf") else "image/jpeg"
     
-    print(f"[*] Vision Agent (OpenRouter) is reading {mime_type}: {file_path}")
+    print(f"[*] Vision Agent (Groq) is reading {mime_type}: {file_path}")
 
     # Encode file to Base64
     with open(file_path, "rb") as image_file:
@@ -49,9 +45,9 @@ def extract_from_invoice(file_path: str) -> InvoiceInput:
 
     data_url = f"data:{mime_type};base64,{encoded_string}"
 
-    # Call OpenRouter (Gemini 2.0 Flash Experimental Free)
+    # Call Groq (Llama 4 Scout Vision)
     return client.chat.completions.create(
-        model="google/gemini-2.0-flash-exp:free",
+        model="meta-llama/llama-4-scout-17b-16e-instruct",
         response_model=InvoiceInput,
         messages=[
             {
@@ -59,7 +55,11 @@ def extract_from_invoice(file_path: str) -> InvoiceInput:
                 "content": [
                     {
                         "type": "text", 
-                        "text": "Extract the invoice data into the required JSON schema perfectly. Ensure you identify the HSN code and all GST components."
+                        "text": (
+                            "Extract the full invoice data into the structured schema. "
+                            "CRITICAL: Extract the 'items' list accurately. Capture every row in the table. "
+                            "Ensure 'gst_rate_charged' is the percentage (e.g. 18, not 0.18)."
+                        )
                     },
                     {
                         "type": "image_url",
